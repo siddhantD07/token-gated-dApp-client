@@ -1,6 +1,7 @@
-export const BACKEND_URL = "http://localhost:5000";
-export const CONTRACT_ADDRESS = "0xa25f2ff16aaea0f2e730dd07018393d7c4443d8e";
-export const ABI = [
+export const BACKEND_URL = "https://token-gated.herokuapp.com"; //Server URL
+export const CHAIN_ID = "4";   //Chain id for network
+export const CONTRACT_ADDRESS = "0xa25f2ff16aaea0f2e730dd07018393d7c4443d8e";   //Actual contract address
+export const ABI = [                                          //Actual contract ABI
         {
           inputs: [
             { internalType: "string", name: "_initBaseURI", type: "string" },
