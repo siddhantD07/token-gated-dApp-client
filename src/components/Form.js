@@ -206,7 +206,6 @@ const Form = () => {
               <Grid item xs={12}>
                 <TextField
                   fullWidth
-                  multiline
                   id="homeAddress"
                   label="Home Address"
                   variant="filled"
